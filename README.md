@@ -11,3 +11,4 @@ Rosa has a hypothesis that there's a microorganism that can supply the next best
 Rosa hypothesizes that the ideal bacterial species to make synthetic beef may be found in the belly button or at least in someone's belly button. To test her hypothesis, Rosa has sampled the navels of people across the country to identify bacterial species that colonize our bellybuttons. Each person's identity is anonymous, they've instead been assigned an ID number. Now Rosa wants to build a dashboard that both her research participants and fellow researchers can access.
 
 Those who participated in the study will be able to visit a website and select their ID numbers to see which bacterial species live in their navels. Who knows what they might find.
+

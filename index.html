@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link ref="stylesheet" href="static/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron img-container" >
+        <img class="img-responsive" id="banner" src="static/images/ImprobableBeefLogo.png" alt="Bellybutton" width="1200">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class ="row">
+      <div class="col-md-12">
+        <h5>Many bacterial species are not well studied and many more remain unknown to science.
+          <br>
+          <br>Certain bacterial species have the ability to synthesize proteins that taste like beef.
+          <br>
+          <br>Labs across the country have had success in synthesizing meat from algae fungi and microorganisms found on plant roots. However, Improbable Beef is searching for bacterium that will provide the perfect taste.
+          <br>
+          <br>The ideal bacterial species to make synthetic beef may be found in your belly button, or at least in someone's belly button. The navels of people across the country have been sampled to identify bacterial species that colonize our bellybuttons. Each person's identity is anonymous, and thus they've instead been assigned an ID number. Below is a dashboard that both the research participants and other researchers can access.
+          <br>
+          <br>Those who participated in the study will be able to visit this website and select their ID numbers to see which bacterial species live in their navels. Who knows what they might find...
+          <br>
+        </h5>
+      </div>
+    <div class="row">
+      <div class="col-md-2" id="test-subject">
+        <div class="well">
+          <h5>Test Subject ID No.:</h5>
+            <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div id="bar"></div>
+      </div>
+      <div class="col-md-4">
+        <div id="gauge"></div>
+      </div>
+  </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="static/js/charts.js"></script>
+</body>
+
+</html>

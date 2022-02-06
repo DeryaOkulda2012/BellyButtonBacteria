@@ -12,3 +12,7 @@ Rosa hypothesizes that the ideal bacterial species to make synthetic beef may be
 
 Those who participated in the study will be able to visit a website and select their ID numbers to see which bacterial species live in their navels. Who knows what they might find.
 
+Click on the following to go to the Improbable Beef website:
+https://deryaokulda2012.github.io/BellyButtonBacteria/
+
+
